@@ -75,7 +75,7 @@ public class Main {
             }
 
         }
-        return mathematicalExpressionByParts[1];
+        return "";
 
     }
     static String[] splitALineIntoParts(String input){
