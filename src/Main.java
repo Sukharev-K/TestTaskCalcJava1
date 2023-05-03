@@ -14,7 +14,7 @@ public class Main {
                     || calc(input) == "Введены арабские числа, выходящие за диапазон 1..10"
                     || calc(input) == "Введены римские цифры, выходящие за диапазон 1..10" ){break;}
         }
-
+        scanner.close();
     }
 
     public static String calc(String input){
