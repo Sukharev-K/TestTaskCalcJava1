@@ -59,7 +59,7 @@ public class Main {
             OutputParameter secondNumEnm = OutputParameter.valueOf(mathematicalExpressionByParts[2]);
             int firstNum = firstNumEnm.getArabicNumerals();
             int secondNum = secondNumEnm.getArabicNumerals();
-            if (firstNum - secondNum <= 0){
+            if (firstNum - secondNum <= 0 && mathematicalExpressionByParts[1] == "-"){
                 return "Ошибка! В римской системе счисления нет отрицательных чисел или нуля";
             } else {
                 switch (mathematicalExpressionByParts[1]){
